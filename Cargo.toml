@@ -1,0 +1,10 @@
+[package]
+name = "exemplo_localstack"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aws-sdk-s3 = "0.0.26-alpha"
+aws-types = "0.0.26-alpha"
+aws-smithy-http = "0.52.0"
+tokio = { version = "1", features = ["full"] }
